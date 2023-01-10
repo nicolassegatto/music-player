@@ -1,6 +1,11 @@
+import { BrowserRouter } from "react-router-dom"
+import { PagesRouter } from "./Router"
+
 function App() {
   return (
-    <div></div>
+    <BrowserRouter>
+      <PagesRouter />
+    </BrowserRouter>
   )
 }
 
