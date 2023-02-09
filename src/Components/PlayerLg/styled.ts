@@ -65,12 +65,17 @@ export const PlayerLGTimeBar = styled.div`
   height: 0.375rem;
   border-radius: 1rem;
   background-color: #5E586F;
+
+  &:hover{
+    cursor: pointer;
+  }
 `
 export const PlayerLGTimeBarCurrent = styled.div`
   width: 75%;
   height: inherit;
   border-radius: 1rem;
   background-color: #ffffff;
+  transition: width linear 200ms;
 `
 
 export const PlayerLGTimeSeconds = styled.div`

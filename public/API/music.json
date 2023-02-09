@@ -1,0 +1,11 @@
+{
+  "musics" : [
+    {
+      "id": 1,
+      "url": "http://localhost:5173/public/music/Emociona%20quem%20quer.mp3",
+      "title":"Emociona Quem Quer",
+      "author":"Fernando Guedes",
+      "cover":"http://localhost:5173/public/music/cover/emociona.jpg"
+    }
+  ]
+}
